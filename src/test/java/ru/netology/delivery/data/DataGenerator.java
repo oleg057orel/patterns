@@ -18,7 +18,7 @@ public class DataGenerator {
     }
 
     public static String generateCity() {
-        var cities = new String[] {"Владивосток"};
+        var cities = new String[] {"Владивосток", "Краснодар", "Тула", "Орёл", "Брянск", "Владивосток", "Липецк", "Смоленск"};
         return cities[new Random().nextInt(cities.length)];
     }
 
